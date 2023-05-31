@@ -1,0 +1,97 @@
+body {
+background-color: #3d3d3d;
+}
+.logo{
+border-radius: 50%;
+  width: 60px;
+  height: 30px;
+
+}
+.img{
+  width: 300px;
+  height: 280px;
+  margin-left: 10px;
+}
+.navBar{
+ opacity: 0.9;
+  background: #011b29;
+  width: 100%;
+  height: 10vh;
+display: flex;
+justify-content: space-around;
+margin: 0;
+align-items: center;
+position: fixed;
+top: 0;
+color: #ededed;
+}
+
+.navBar div{
+ 
+  font-size: large;
+  cursor: pointer;
+ 
+}
+.active{
+  color: rgb(255, 77, 0);
+  text-decoration: none;
+
+}
+.notActive{
+  color: #ededed;
+  text-decoration: none;
+}
+
+.navBar div:hover{
+  color:#00abf0
+}
+.navBar input{
+  height: 31%;
+  width: 16%;
+  margin-right: 5px;
+}
+.homeLayout{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 2%;
+}
+.homeCard{
+  border: solid rgb(50, 42, 42);
+  width:  320px;
+  font-size: large;
+ height: 410px;
+ margin: 15px;
+ padding: 20px;
+}
+.homeCard div{
+  padding-top: 6px;
+  padding-left: 4px;
+}
+.homeCard button{
+  margin-top: 10px;
+ padding: 10px;
+  border-radius: 8px;
+  background-color: #00abf0;
+  cursor: pointer;
+}
+.homeCard button:hover{
+  background-color: rgb(150, 194, 39);
+}
+.delete{
+  margin-right: 14px;
+}
+.toastAlert{
+  position: fixed;
+  background-color: rgb(237, 234, 226);
+  border-radius: 3px;
+  width: 260px;
+  left: 300px;
+  display: flex;
+ padding-left: 5px;
+  align-items: center;
+  height: 40px;
+ z-index: 3;
+  margin-left: 26%;
+  transition: all 2s ease ;
+}
+
